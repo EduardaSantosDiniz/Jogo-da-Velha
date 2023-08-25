@@ -67,6 +67,11 @@
     border-right: none;
   }
 
+.board.x .cell:not(.x):not(.circle):hover::after,
+.board.x .cell:not(.x):not(.circle):hover::before {
+    
+}
+
 /* X */
 .cell.x::before,
 .cell.x::after,
