@@ -33,6 +33,17 @@ body{
     position: relative
 }
 
+.cell.x {
+    cursor: not-allowed;
+
+
+}
+
+.cell.circle{
+    cursor: not-allowed;
+
+}
+
 .cell:nth-child(1),
 .cell:nth-child(2),
 .cell:nth-child(3){
