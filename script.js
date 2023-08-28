@@ -22,7 +22,7 @@ const handleClick = (e) => {
     //Verificar por empate
 
     //Mudar o símbolo
-    
+    sw
 };
 
 for (const cell of cellElements) {
