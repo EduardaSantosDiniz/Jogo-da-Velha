@@ -1,12 +1,13 @@
 const cellElements = document.querySelector('[data-cell]');
 
-let isCircleTurn;
+let isCircleTurn = false;
 
 const placeMark = (cell, classToAdd) => {
     cell.classList.add(classToAdd);
 };
 
 const swapTurns = () => {
+    isCircleTurn = !isCircleTurn
 
 }
 
