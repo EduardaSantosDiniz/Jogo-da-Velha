@@ -24,20 +24,15 @@ const startGame = () => {
     board.classList.add("x");
 };
 
-const checkForWin = (currentClass) => {
-    return winningCombination.some(combination) =>{
+const checkForWin = (currentPlayer) => {
+    return winningCombinations.some((combination) => {
         return combination.every((index)=> {
             return cellElements[index].classList.contains(currentPlayer);
         });
 
-    };
+    });
 
 };
-
-
-
-
-
 
 const placeMark = (cell, classToAdd) => {
     cell.classList.add(classToAdd);
