@@ -25,12 +25,12 @@ const startGame = () => {
 };
 
 const checkForWin = (currentClass) => {
-    return winningCombination.some(combinations =>{
-        return conbination.every(index => {
-            return cellElements{index}.classList.contains(currentPlayer);
+    return winningCombination.some(combination) =>{
+        return combination.every((index)=> {
+            return cellElements[index].classList.contains(currentPlayer);
         });
 
-    });
+    };
 
 };
 
