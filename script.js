@@ -30,7 +30,7 @@ const checkForWin = (currentPlayer) => {
             return cellElements[index].classList.contains(currentPlayer);
         });
 
-    });x
+    });
 
 };
 
