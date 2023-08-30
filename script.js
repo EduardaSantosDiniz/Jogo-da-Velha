@@ -1,5 +1,7 @@
 const cellElements = document.querySelector("[data-cell]");
 const board = document.querySelector("[data-board");
+const winningMessageTextElement = document.querySelector('[data-winning-message-text]');
+const winningMessage = document.querySelector('[][data-winning-message]');
 
 let isCircleTurn;
 
@@ -25,6 +27,15 @@ const startGame = () => {
 
     board.classList.add("x");
 };
+
+const endGame = (isDraw) => {
+    if (isDraw) {
+        winningMessageTextElement.innerText = 'Empate!';
+    } else {
+        winningMessageTextElement.innerText = isCircleTurn ? 'Círculo Venceu!' : 'X Venceu!';
+    }
+
+}
 
 const checkForWin = (currentPlayer) => {
     return winningCombinations.some((combination) => {
@@ -63,7 +74,7 @@ const handleClick = (e) => {
     //Verificar por vitória
     const isWin = checkForWin();
     if (isWin) {
-        console.log ("Winner");
+        endGame(true);
     }
     //Verificar por empate
 
