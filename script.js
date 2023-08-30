@@ -60,6 +60,9 @@ const handleClick = (e) => {
 
     //Verificar por vitória
 
+    
+    
+
     //Verificar por empate
 
     //Mudar o símbolo
@@ -67,6 +70,4 @@ const handleClick = (e) => {
     
 };
 
-for (const cell of cellElements) {
-    cell.addEventListener('click', handleClick, {once: true});
-}
+startGame();
