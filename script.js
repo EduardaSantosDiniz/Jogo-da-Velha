@@ -35,7 +35,9 @@ const endGame = (isDraw) => {
         winningMessageTextElement.innerText = isCircleTurn ? 'Círculo Venceu!' : 'X Venceu!';
     }
 
-}
+   winnningMessage.classList.add("show-winnning-message");
+
+};
 
 const checkForWin = (currentPlayer) => {
     return winningCombinations.some((combination) => {
@@ -74,7 +76,7 @@ const handleClick = (e) => {
     //Verificar por vitória
     const isWin = checkForWin();
     if (isWin) {
-        endGame(true);
+        endGame(false);
     }
     //Verificar por empate
 
