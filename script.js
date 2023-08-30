@@ -13,7 +13,8 @@ const winningCombination = [
     [2, 5, 8],
     [0, 4, 8],
     [2, 4, 6]
-]
+];
+
 
 const startGame = () => {
     for (const cell of cellElements) {
@@ -60,10 +61,10 @@ const handleClick = (e) => {
     placeMark(cell,classToAdd);
 
     //Verificar por vitória
-
-    
-
-
+    const isWin = checkForWin();
+    if (isWin) {
+        console.log ("Winner");
+    }
     //Verificar por empate
 
     //Mudar o símbolo
