@@ -8,7 +8,12 @@ Tela do Jogo:
 
 
 
-Tela de Vitória (também tem possibilidade de empate é claro):
+Tela de Vitória:
 
 ![XVenceu](https://github.com/EduardaSantosDiniz/Jogo-da-Velha/assets/141766958/f4ff4bcd-8771-47a0-beca-57da63f8015f)
+
+
+Tela de Empate:
+
+![Empate](https://github.com/EduardaSantosDiniz/Jogo-da-Velha/assets/141766958/03580c79-2342-41f5-9bc0-a6cc89f4d79f)
 
