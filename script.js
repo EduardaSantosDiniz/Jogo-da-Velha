@@ -70,5 +70,3 @@ const handleClick = (e) => {
 for (const cell of cellElements) {
     cell.addEventListener('click', handleClick, {once: true});
 }
-
-startGame();
