@@ -9,3 +9,6 @@ Tela do Jogo:
 
 
 Tela de Vitória (também tem possibilidade de empate é claro):
+
+![XVenceu](https://github.com/EduardaSantosDiniz/Jogo-da-Velha/assets/141766958/f4ff4bcd-8771-47a0-beca-57da63f8015f)
+
